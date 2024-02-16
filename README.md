@@ -36,14 +36,7 @@ Suppose you have the following directory structure:
 │   ├── image2.png
 │   └── ...
 └── output
-    ├── 2024-02-16 12-00-00
-    │   ├── image1.jpg
-    │   ├── image2.png
-    │   └── ...
-    └── originals
-        ├── image1.jpg
-        ├── image2.png
-        └── ...
+. 
 
 
 
