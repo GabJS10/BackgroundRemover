@@ -32,11 +32,19 @@ Suppose you have the following directory structure:
 .
 ├── background_remover.py
 ├── input
-│ ├── image1.jpg
-│ ├── image2.png
-│ └── ...
+│   ├── image1.jpg
+│   ├── image2.png
+│   └── ...
 └── output
-└── ...
+    ├── 2024-02-16 12-00-00
+    │   ├── image1.jpg
+    │   ├── image2.png
+    │   └── ...
+    └── originals
+        ├── image1.jpg
+        ├── image2.png
+        └── ...
+
 
 
 After running the script, the `output` folder will contain the processed images with removed backgrounds in the `2024-02-16 12-00-00` subfolder, and the original images will be backed up in the `originals` subfolder.
